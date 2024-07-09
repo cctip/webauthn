@@ -1,12 +1,11 @@
-module github.com/go-webauthn/webauthn
+module github.com/cctip/webauthn
 
 go 1.22
 
-toolchain go1.22.5
+toolchain go1.22.0
 
 require (
 	github.com/fxamacker/cbor/v2 v2.7.0
-	github.com/go-webauthn/x v0.1.12
 	github.com/golang-jwt/jwt/v5 v5.2.1
 	github.com/google/go-tpm v0.9.1
 	github.com/google/uuid v1.6.0

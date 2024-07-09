@@ -4,6 +4,7 @@ import (
 	"crypto/x509"
 	"encoding/base64"
 	"errors"
+	"github.com/cctip/webauthn/revoke"
 	"io"
 	"net/http"
 	"reflect"
@@ -13,9 +14,7 @@ import (
 	"github.com/google/uuid"
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/go-webauthn/x/revoke"
-
-	"github.com/go-webauthn/webauthn/protocol/webauthncose"
+	"github.com/cctip/webauthn/protocol/webauthncose"
 )
 
 type PublicKeyCredentialParameters struct {

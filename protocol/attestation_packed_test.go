@@ -4,7 +4,7 @@ import (
 	"crypto/sha256"
 	"testing"
 
-	"github.com/go-webauthn/webauthn/metadata"
+	"github.com/cctip/webauthn/metadata"
 )
 
 func Test_verifyPackedFormat(t *testing.T) {

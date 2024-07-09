@@ -7,8 +7,8 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/go-webauthn/webauthn/protocol"
-	"github.com/go-webauthn/webauthn/protocol/webauthncose"
+	"github.com/cctip/webauthn/protocol"
+	"github.com/cctip/webauthn/protocol/webauthncose"
 )
 
 // BEGIN REGISTRATION

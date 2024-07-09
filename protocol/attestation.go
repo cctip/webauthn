@@ -8,8 +8,8 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/go-webauthn/webauthn/metadata"
-	"github.com/go-webauthn/webauthn/protocol/webauthncbor"
+	"github.com/cctip/webauthn/metadata"
+	"github.com/cctip/webauthn/protocol/webauthncbor"
 )
 
 // AuthenticatorAttestationResponse is the initial unpacked 'response' object received by the relying party. This
